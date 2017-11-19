@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="css/master.css">
+    </head>
+    <body>
+        <div id="todo-app">
+            <span class="heading">Add Task</span>
+            <input id="inp-insert-task" type="text" placeholder="Insert new task. Press Enter to save.">
+
+            <span class="heading">Incomplete Tasks</span>
+            <div id="cont-incomplete">
+                <div class="task">
+                    <div class="task-name">Task Name</div>
+                    <input class="task-checkbox" type="checkbox">
+                </div>
+                <div class="task">
+                    <div class="task-name">Task Name</div>
+                    <input class="task-checkbox" type="checkbox">
+                </div>
+            </div>
+
+            <span class="heading">Complete Tasks</span>
+            <div id="cont-complete">
+                <div class="task">
+                    <div class="task-name">Task Name</div>
+                    <input class="task-checkbox" type="checkbox">
+                </div>
+            </div>
+        </div>
+        <script src="js/Task.js"></script>
+        <script src="js/List.js"></script>
+        <script src="js/Todo.js"></script>
+    </body>
+</html>
